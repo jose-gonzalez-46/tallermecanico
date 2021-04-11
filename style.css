@@ -1,0 +1,78 @@
+    body {
+        background-color: rgb(188, 193, 197);
+    }
+    
+    .alto {
+        height: 100vh;
+    }
+    
+    .menu {
+        height: 7vh;
+        background-color: rgba(72, 93, 209, 0.856);
+    }
+    
+    .titulo {
+        color: white;
+        background-color: rgba(72, 93, 209, 0.856);
+        text-align: center;
+        width: 100%;
+        height: 9vh;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(72, 93, 209, 0.856);
+    }
+    
+    li {
+        float: right;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
+    
+    .carrusel {
+        height: 80vh;
+    }
+    
+    .carousel-inner img {
+        width: 100%;
+        height: 85vh;
+        margin: auto;
+    }
+    
+    .presentacion {
+        background-color: rgb(188, 193, 197);
+        background-image: url("fotostaller/medir_aceite_logo.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 110vh;
+    }
+    
+    .quienes {
+        font-family: verdana;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgba(72, 93, 209, 0.856);
+        height: 13vh;
+        padding-top: 37px;
+    }
+    
+    .descripcion {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 25px;
+        font-size: 25px;
+    }
