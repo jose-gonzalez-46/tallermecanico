@@ -58,11 +58,10 @@ h2 {
 }
 
 .container {
-    text-align: center;
-    margin: 20px auto;
-    min-width: 1330px;
+    margin: 70px auto;
     background-color: #77aece;
-    padding: 2em;
+    width: 1600px;
+    padding: 1em;
     overflow: hidden;
 }
 
@@ -71,23 +70,26 @@ h2 {
     padding: 1em;
     color: #000000;
     float: left;
-    width: 400px;
+    width: 360px;
 }
 
 #item1 {
     background-color: #4e44e2;
+    margin: 1px;
 }
 
 #item2 {
     background-color: #4e44e2;
+    margin: 1px;
 }
 
 #item3 {
     background-color: #4e44e2;
+    margin: 1px;
 }
 
 .presentacion {
-    background-color: rgb(188, 193, 197);
+    background-color: #bcc1c5;
     background-image: url("fotostaller/medir_aceite_logo.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
