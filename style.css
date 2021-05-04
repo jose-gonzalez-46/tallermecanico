@@ -53,14 +53,6 @@
         margin: auto;
     }
     
-    .presentacion {
-        background-color: rgb(188, 193, 197);
-        background-image: url("fotostaller/medir_aceite_logo.jpg");
-        background-repeat: no-repeat;
-        background-position: bottom;
-        height: 110vh;
-    }
-    
     .quienes {
         font-family: verdana;
         text-align: center;

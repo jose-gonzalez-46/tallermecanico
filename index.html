@@ -23,7 +23,7 @@
 
 </head>
 
-
+<!------------------MENU---------------->
 
 <body>
     <section class="container_fluid">
@@ -31,18 +31,18 @@
 
             <div class="menu">
                 <ul>
-                    <li><a class="active" href="contacto.html">Contacto</a></li>
-                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a class="active" href="#formu">Contacto</a></li>
+                    <li><a href="#servi">Servicios</a></li>
                     <li><a href="#quien">Quienes somos</a></li>
                     <li><a href="#ini">Inicio</a></li>
                 </ul>
             </div>
             <div class="titulo">
-                <a name="ini"></a>
+
                 <h1>Road Hot Garage</h!>
             </div>
 
-
+            <!------------------CARRUSEL---------------->
             <div class="carusel">
                 <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -104,9 +104,109 @@
                 </div>
 
 
+
+
             </div>
 
         </section>
+        <!----------------SERVICIOS---------------->
+        <a name="servi"></a>
+        <h2 class="titulo">Servicios </h2>
+        <section class="container alto">
+            <br>
+
+
+
+
+            <body>
+
+                <div class="container">
+                    <a href="mecanicaAutomotriz.html">
+                        <div class="item" id="item1">
+                            <h2>Mecánica Automotriz</h2>
+                            <hr>
+                            <img src="imagenes/mecanicaAutomotriz.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="desabolladuraPintura.html">
+                        <div class="item" id="item2">
+                            <h2>Desabolladura y Pintura</h2>
+                            <hr>
+                            <img src="imagenes/desabolladuraPintura.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="mantenciónRepuestos.html">
+                        <div class="item" id="item3">
+                            <h2>Mantención o Repuestos</h2>
+                            <hr>
+                            <img src="imagenes/mantencionRepuestos.jpg" alt="">
+                        </div>
+                    </a>
+
+                </div>
+
+            </body>
+
+        </section>
+
+        <!------------------CONTACTO---------------->
+        <section class=" alto">
+
+
+            <br>
+            <h2 class="titulo">Contactanos </h2>
+            <p class="descripcion">!Escribenos con tus dudas y te ayudaremos¡ :</p>
+
+            <div class="container">
+
+                <a name="formu"></a>
+
+
+
+                <form action="/action_page.php" class="was-validated">
+
+                    <div class="form-group">
+                        <label for="uname">Nombre:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="EJ: nombre1 nombre2 apellido1 apellido2..." name="uname" required>
+                        <div class="valid-feedback">Recuerda revisar tu información antes de confirmar.</div>
+                        <div class="invalid-feedback">Por favor rellene este campo.</div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Correo electronico:</label>
+                        <input type="text" class="form-control" id="email" name="correo" placeholder="Ej: nombre123@correo.cl" required>
+                        <div class="valid-feedback">Recuerda revisar tu información antes de confirmar.</div>
+                        <div class="invalid-feedback">Por favor rellene este campo.</div>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label for="comment">Comentario:</label>
+                        <textarea class="form-control" rows="2" id="comment" required placeholder="Escribe aqui..."></textarea>
+                    </div>
+
+
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-primary">Borrar</button>
+
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div>
+
+
+
+            </div>
+
+        </footer>
 
 
 
