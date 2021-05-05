@@ -40,7 +40,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: rgb(255, 8, 8);
 }
 
 h2 {
@@ -110,4 +110,9 @@ h2 {
     text-align: center;
     padding: 25px;
     font-size: 25px;
+}
+
+.final {
+    height: 20vh;
+    background-color: #07090a;
 }
