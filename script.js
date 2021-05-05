@@ -49,3 +49,28 @@ $(document).ready(function() {
 
     });
 });
+
+$(document).ready(function() {
+    $("#bEnviar").submit(function(e) {
+        e.preventDefault();
+
+        var data = $(this).serializeArray();
+        data.push({ name: 'tag', value: 'login' })
+
+        $.ajax({
+                url: 'process.php',
+                type: 'post',
+                datatype: 'json',
+                data: data
+            })
+            .done(function() {
+                console.log("success");
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            .always(function() {
+                console.log("complete");
+            })
+    })
+})
