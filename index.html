@@ -161,21 +161,21 @@
 
             <div class="container">
                 <a name="formu"></a>
-                <form action="/action_page.php" class="was-validated">
+                <form action="/action_page.php" class="was-validated" id="miformulario">
 
                     <div class="form-group">
                         <label for="uname">Nombre:</label>
-                        <input type="text" class="form-control" id="uname" placeholder="EJ: nombre1 nombre2 apellido1 apellido2..." name="uname" required>
-                        <div class="valid-feedback">Recuerda revisar tu información antes de confirmar.</div>
-                        <div class="invalid-feedback">Por favor rellene este campo.</div>
+                        <input type="text" class="form-control campo" id="uname" placeholder="EJ: nombre1 nombre2 apellido1 apellido2..." name="uname" required>
+                        <div id="mensaje1" class="errores">Recuerda revisar tu información antes de confirmar.</div>
+
                     </div>
 
 
                     <div class="form-group">
                         <label for="email">Correo electronico:</label>
-                        <input type="text" class="form-control" id="email" name="correo" placeholder="Ej: nombre123@correo.cl" required>
-                        <div class="valid-feedback">Recuerda revisar tu información antes de confirmar.</div>
-                        <div class="invalid-feedback">Por favor rellene este campo.</div>
+                        <input type="text" class="form-control campo" id="email" name="correo" placeholder="Ej: nombre123@correo.cl" required>
+                        <div id="mensaje2" class="errores">Recuerda revisar tu información antes de confirmar.</div>
+
 
                     </div>
 
@@ -183,13 +183,14 @@
 
                     <div class="form-group">
                         <label for="comment">Comentario:</label>
-                        <textarea class="form-control" rows="4" id="comment" required placeholder="Escribe aqui..."></textarea>
+                        <textarea class="form-control campo" rows="4" id="comment" required placeholder="Escribe aqui..."></textarea>
+                        <div id="mensaje3" class="errores">Recuerda revisar tu información antes de confirmar.</div>
                     </div>
 
 
                     <div class="botones">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                        <button type="reset" class="btn btn-primary">Borrar</button>
+                        <button type="submit" id="bEnviar" class="btn btn-primary botoncolor">Enviar</button>
+                        <button type="reset" class="btn btn-primary botoncolor">Borrar</button>
                     </div>
 
                 </form>
