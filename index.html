@@ -26,7 +26,7 @@
     <section class="container_fluid">
         <header class="alto">
 
-            <div class="menu">
+            <div class=" menu">
                 <ul>
                     <li><a class="active" href="#formu">Contacto</a></li>
                     <li><a href="#servi">Servicios</a></li>
@@ -34,13 +34,9 @@
                     <li><a href="#ini">Inicio</a></li>
                 </ul>
             </div>
-            <div class="titulo">
-
-                <h1>Road Hot Garage</h!>
-            </div>
-
+            <br>
             <!------------------CARRUSEL---------------->
-            <div class="carusel">
+            <div class="carusel hola">
                 <div id="demo" class="carousel slide" data-ride="carousel">
 
                     <!-- Indicators -->
@@ -85,7 +81,7 @@
 
         <section class="presentacion alto">
             <a name="quien"></a>
-            <div class="quienes">
+            <div class="quienes titulo">
                 <h3>Quienes somos</h3>
 
 
@@ -112,8 +108,6 @@
         <h2 class="titulo">Servicios </h2>
         <section class="row alto">
             <br>
-
-
 
             <body>
 
@@ -150,17 +144,16 @@
             </body>
 
         </section>
-
+        <br><br>
         <!------------------CONTACTO---------------->
         <section class="row alto">
-            <a name="formu"></a>
-            <h2 class="titulo">Contactanos </h2>
-
-            <p class="descripcion">!Escribenos con tus dudas y te ayudaremos¡</p>
 
             <div class="container">
+                <a name="formu"></a>
+                <h2 class="titulo">Contactanos </h2>
+                <p class="descripcion">Escribenos con tus dudas y te ayudaremos</p>
 
-                <form action="/action_page.php" class="was-validated" id="miformulario">
+                <form action="email.php" class="was-validated" id="miformulario">
 
                     <div class="form-group">
                         <label for="uname">Nombre:</label>
@@ -179,7 +172,7 @@
 
                     <div class="form-group">
                         <label for="comment">Comentario:</label>
-                        <textarea class="form-control campo" rows="4" id="umensaje" required placeholder="Escribe aqui..."></textarea>
+                        <textarea class="form-control campo" rows="4" id="umensaje" name required placeholder="Escribe aqui..."></textarea>
                         <div id="mensaje3" class="errores">¿Tienes dudas? Escribenos un mensaje.</div>
                     </div>
 
@@ -190,6 +183,7 @@
                     </div>
 
                 </form>
+
             </div>
 
         </section>
@@ -216,4 +210,4 @@
 
 
 
-</html>
+</html>}
