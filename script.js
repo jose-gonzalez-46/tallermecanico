@@ -33,3 +33,19 @@ $(document).ready(function() {
 
     });
 });
+
+$(document).ready(function() {
+    $("#umensaje").mouseleave(function() {
+        var mensaje = $("#umensaje").val();
+
+
+        if (mensaje == "") {
+            $("#mensaje3").fadeIn();
+            return false;
+        } else {
+            $("#mensaje3").fadeOut();
+
+        }
+
+    });
+});
